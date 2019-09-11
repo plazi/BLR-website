@@ -2,6 +2,6 @@
 
 Managing the development of the Biodiversity Literature Repository
 
-## Related;
+## Related:
 
 * https://github.com/punkish/blr
