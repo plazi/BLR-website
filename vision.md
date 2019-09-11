@@ -15,11 +15,6 @@ The user will choose between the different data available for search, and then, 
 
 Advanced search functionality would be available through filters.
 
-### Data types
-1. Taxonomic treatments (searched on Zenodeo)
-2. Images (searched on Zenodo)
-3. Publications (searched on ?)
-
 ### Query types
 1. Taxon [Current Limitation 1]()
 2. Journal
@@ -29,14 +24,21 @@ Advanced search functionality would be available through filters.
 
 ### Filter options
 
+### Data types
+1. Taxonomic treatments (searched on Zenodeo)
+2. Images (searched on Zenodo)
+3. Publications (searched on ?)
+
 #### Taxonomic Treatments
 1. Taxon Rank
 2. Taxonomic Status
-3. Author
-4. Journal
+3. Author*
+4. Journal*
 5. Instituton/Collection (Current Limitation #2)
 6. Communities
 7. Dates
+
+'* If the query type is author or journal, this filter option wouldn't be available. 
 
 #### Images (see Current Limitation #3)
 
@@ -84,27 +86,36 @@ Advanced search functionality would be available through filters.
 1. Header (BLR logo, links)
 2. Reference
 3. Treatment
-3.1 Links to Alternative Sources (Zenodo, GBIF, TB)
-3.2 Dashboards - Taxonomic ranking tree with available treatments per rank
-3.3 
-4. Map, if coordinates are available
-5. Footer ('Powered by', social media links)
 
-### Images
+3.1. Links to Alternative Sources (Zenodo, GBIF, TB)
+
+3.2. Dashboards - Taxonomic ranking tree with available treatments per rank
+
+3.3. "Has parts" (figures, keys, treatment citations)
+
+4. Figures included
+5. Map, if coordinates are available
+6. Footer ('Powered by', social media links)
+
+### Image
 1. Header (BLR logo, links)
 2. Reference
 3. Image
+
 3.1. Links to Alternative Sources
+
 4. Caption
-5. Related Items*
+4. Related Items*
 5. Footer ('Powered by', social media links)
 
 ### Publications
 1. Header (BLR logo, links)
 2. Reference
 3. Render of PDF
+
 3.1. Links to Alternative Sources
-5. Related Items*
+
+4. Related Items*
 5. Footer ('Powered by', social media links)
 
 '* A new query would have to be made based on an specific, pre-defined information of the clicked image, to retrieve and show some related items in all three 'unit searches'.
