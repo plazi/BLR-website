@@ -34,7 +34,7 @@
 ### Zenodeo response fields
 | field | facet | result display | notes |
 | --- | --- | --- | --- |
-| treatmentId | no | yes | |
+| treatmentId | no | no | |
 | treatmentTitle | no | yes | | 
 | pages | no | yes | |
 | doi | no | yes | |
