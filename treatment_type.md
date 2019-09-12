@@ -3,6 +3,9 @@
 * [Fields](#fields)
  * [Zenodeo API treatments parameters](#zenodeo-api-treatments-parameters)
  * [Zenodeo response fields](#zenodeo-response-fields)
+* Displays
+ * [Search result display](#search-result-display)
+ * Treatment page display(#treatmen-page-display)
 * [Sample Zenodeo API response (treatmentID)](#sample-zenodeo-api-response-treatmentid)
 
 ## Fields
@@ -61,6 +64,23 @@
 | materialsCitations | no? | yes (count) | no | can facet on contains materialsCitations |
 | figureCitations | no? | yes (count) | no | can facet on "contains figureCitations"|
 | treatmentCitations? | no? | yes (count) | no | can facet on "contains treatmentCitations"|
+
+## Displays
+
+### Search result display
+
+* treatmentTitle
+* treatmentAuthors
+* publication info = *articleTitle* + journalTitle + journalVolume + journalIssue + journalYear + *articleDoi* + *articlePages* + pages
+* status
+* link to zenodo record = doi
+* link to treatmentbank = "http://treatment.plazi.org/id/" + treatmentID
+* image count = count(figureCitations items)
+* materials count = count(materialsCitations items)
+
+
+### Treatment page display
+
 
 ## Sample Zenodeo API response (treatmentID)
 
@@ -507,16 +527,3 @@
   }
 }
 ```
-### Search result display
-
-* treatmentTitle
-* treatmentAuthors
-* publication info = *articleTitle* + journalTitle + journalVolume + journalIssue + journalYear + *articleDoi* + *articlePages* + pages
-* status
-* link to zenodo record = doi
-* link to treatmentbank = "http://treatment.plazi.org/id/" + treatmentID
-* image count = count(figureCitations items)
-* materials count = count(materialsCitations items)
-
-
-### Treatment page display
