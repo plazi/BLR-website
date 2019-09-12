@@ -3,7 +3,7 @@
 * [Fields](#fields)
  * [Zenodeo API treatments parameters](#zenodeo-api-treatments-parameters)
  * [Zenodeo response fields](#zenodeo-response-fields)
- * [Sample Zenodeo API response (treatmentID)](#sample-zenodeo-api-response-treatmentid)
+* [Sample Zenodeo API response (treatmentID)](#sample-zenodeo-api-response-treatmentid)
 
 ## Fields
 
@@ -58,7 +58,7 @@
 | figureCitations | no? | yes (count) | can facet on "contains figureCitations"|
 | treatmentCitations? | no? | yes (count) | can facet on "contains treatmentCitations"|
 
-### Sample Zenodeo API response (treatmentID)
+## Sample Zenodeo API response (treatmentID)
 
 ```
 {
