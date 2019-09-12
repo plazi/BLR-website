@@ -1,5 +1,7 @@
 
-### Fields
+## Fields
+
+### Current Zenodeo API treatments parameters
 
 | field name | type | facet | Description |
 | --- | --- | --- | --- |
