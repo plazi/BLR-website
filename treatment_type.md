@@ -1,8 +1,13 @@
 # Treatment Object Type
 
+* [Fields](#fields)
+ * [Zenodeo API treatments parameters](#zenodeo-api-treatments-parameters)
+ * [Zenodeo response fields](#zenodeo-response-fields)
+ * [Sample Zenodeo API response (treatmentID)](#sample-zenodeo-api-response-\(treatmentID\))
+
 ## Fields
 
-### Current Zenodeo API treatments parameters
+### Zenodeo API treatments parameters
 
 | field name | type | facet | Description |
 | --- | --- | --- | --- |
@@ -27,30 +32,31 @@
 | lon | number | no | Geographic coordinates where the specimen has been collected |
 
 ### Zenodeo response fields
-| field | facet | result display |
-| --- | --- | --- |
-| treatmentId | no | yes | 
-| treatmentTitle | no | yes | 
-| pages | no | yes |
-| doi | no | yes | 
-| zenodoDep | no | no | 
-| publicationDate |  no | no | 
-| journalTitle |  yes | yes | 
-| journalYear |  yes | yes | 
-| journalVolume |  yes | yes | 
-| journalIssue | no | yes |  
-| authorityName |  no | yes? | 
-| authorityYear |  no | yes? | 
-| kingdom |  yes | no? | 
-| phylum | yes | no? | 
-| order | yes | no? | 
-| family | yes | no? | 
-| genus | yes | no? | 
-| species | yes | no? | 
-| status | yes | no? | 
-| rank | yes | no? | 
-| materialsCitations | no? | yes (count) |
-| figureCitations | no? | yes (count) |
+| field | facet | result display | notes |
+| --- | --- | --- | --- |
+| treatmentId | no | yes | |
+| treatmentTitle | no | yes | | 
+| pages | no | yes | |
+| doi | no | yes | |
+| zenodoDep | no | no | |
+| publicationDate |  no | no | |
+| journalTitle |  yes | yes | | 
+| journalYear |  yes | yes | | 
+| journalVolume |  yes | yes | | 
+| journalIssue | no | yes | |  
+| authorityName |  no | yes? | | 
+| authorityYear |  no | yes? | | 
+| kingdom |  yes | no? | | 
+| phylum | yes | no? | | 
+| order | yes | no? | |
+| family | yes | no? | | 
+| genus | yes | no? | | 
+| species | yes | no? | | 
+| status | yes | no? | | 
+| rank | yes | no? | |
+| materialsCitations | no? | yes (count) | can facet on contains materialsCitations |
+| figureCitations | no? | yes (count) | can facet on "contains figureCitations"|
+| treatmentCitations? | no? | yes (count) | can facet on "contains treatmentCitations"|
 
 ### Sample Zenodeo API response (treatmentID)
 
