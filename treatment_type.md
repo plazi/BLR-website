@@ -26,6 +26,30 @@
 | lat | number | no | Geographic coordinates where the specimen has been collected |
 | lon | number | no | Geographic coordinates where the specimen has been collected |
 
+### Zenodeo response fields
+| field | facet | result display |
+| --- | --- | --- |
+| treatmentId | no | yes | 
+| treatmentTitle | no | yes | 
+| pages | no | yes |
+| doi | no | yes | 
+| zenodoDep | no | no | 
+| publicationDate |  no | no | 
+| journalTitle |  yes | yes | 
+| journalYear |  yes | yes | 
+| journalVolume |  yes | yes | 
+| journalIssue | no | yes |  
+| authorityName |  no | yes? | 
+| authorityYear |  no | yes? | 
+| kingdom |  yes | no? | 
+| phylum | yes | no? | 
+| order | yes | no? | 
+| family | yes | no? | 
+| genus | yes | no? | 
+| species | yes | no? | 
+| status | yes | no? | 
+| rank | yes | no? | 
+
 ### Sample Zenodeo API response (treatmentID)
 
 ```
