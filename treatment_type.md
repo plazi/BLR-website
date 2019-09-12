@@ -470,3 +470,6 @@
   }
 }
 ```
+### Search result display
+
+### Treatment page display
