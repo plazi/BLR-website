@@ -16,11 +16,17 @@ The user will choose between the different data available for search, and then, 
 Advanced search functionality would be available through filters.
 
 ### Query types
-1. Taxon [Current Limitation 1]()
+1. Taxon [Current Limitation 1]
+    Return distinct of all treatments which has the search term in either:
+          treatmentTitle, kingdom, phylum, order, family, genus, species
 2. Journal
+    Return distinct of all treatments which has the search term in:
+         journalTitle
 3. Author
-4. Institution/Collection**
-5. Community
+    Return distinct of all treatments which has the search term in:
+         authorityName
+4. Institution/Collection** (search grbio for institution -> get the code and seach q matchword)
+5. Community (to do)
 
 ### Filter options
 
