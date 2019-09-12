@@ -3,7 +3,7 @@
 * [Fields](#fields)
  * [Zenodeo API treatments parameters](#zenodeo-api-treatments-parameters)
  * [Zenodeo response fields](#zenodeo-response-fields)
- * [Sample Zenodeo API response (treatmentID)](#sample-zenodeo-api-response-\(treatmentID\))
+ * [Sample Zenodeo API response (treatmentID)](#sample-zenodeo-api-response-treatmentid)
 
 ## Fields
 
