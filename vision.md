@@ -16,7 +16,7 @@ The user will choose between the different data available for search, and then, 
 Advanced search functionality would be available through filters.
 
 ### Query types
-1. Taxon [Current Limitation 1]\
+1. Taxon (_search by taxonomic rank'?', which will return all-inclusive results in both Zenodeo and Zenodo_)\
     Return distinct of all treatments which has the search term in either:\
           treatmentTitle, kingdom, phylum, order, family, genus, species
 2. Journal\
