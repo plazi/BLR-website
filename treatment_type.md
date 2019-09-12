@@ -509,6 +509,12 @@
 ### Search result display
 
 treatmentTitle
+publication info = *articleTitle* + journalTitle + journalVolume + journalIssue + journalYear + *articleDoi* + *articlePages* + pages
+status
+link to zenodo record = doi
+link to treatmentbank = "http://treatment.plazi.org/id/" + treatmentID
+image count = count(figureCitations items)
+materials count = count(materialsCitations items)
 
 
 ### Treatment page display
