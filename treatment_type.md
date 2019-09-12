@@ -1,12 +1,12 @@
 # Treatment Object Type
 
-* [Fields](#fields)
- * [Zenodeo API treatments parameters](#zenodeo-api-treatments-parameters)
- * [Zenodeo response fields](#zenodeo-response-fields)
-* Displays
- * [Search result display](#search-result-display)
- * Treatment page display(#treatmen-page-display)
-* [Sample Zenodeo API response (treatmentID)](#sample-zenodeo-api-response-treatmentid)
+- [Fields](#fields)
+  - [Zenodeo API treatments parameters](#zenodeo-api-treatments-parameters)
+  - [Zenodeo response fields](#zenodeo-response-fields)
+- [Displays](#displays)
+  - [Search result display](#search-result-display)
+  - [Treatment page display](#treatment-page-display)
+- [Sample Zenodeo API response (treatmentID)](#sample-zenodeo-api-response-treatmentid)
 
 ## Fields
 
