@@ -49,6 +49,8 @@
 | species | yes | no? | 
 | status | yes | no? | 
 | rank | yes | no? | 
+| materialsCitations | no? | yes (count) |
+| figureCitations | no? | yes (count) |
 
 ### Sample Zenodeo API response (treatmentID)
 
