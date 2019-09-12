@@ -30,6 +30,7 @@
 | q |string | no | Full text of the treatment |
 | lat | number | no | Geographic coordinates where the specimen has been collected |
 | lon | number | no | Geographic coordinates where the specimen has been collected |
+| *status*
 
 ### Zenodeo response fields
 | field | facet | result display | notes |
