@@ -41,6 +41,8 @@
 | doi | no | yes | |
 | zenodoDep | no | no | |
 | publicationDate |  no | no | |
+| *articleTitle* |  no | yes | needed |
+| *articleDoi* |  no | yes | needed |
 | journalTitle |  yes | yes | | 
 | journalYear |  yes | yes | | 
 | journalVolume |  yes | yes | | 
@@ -505,5 +507,8 @@
 }
 ```
 ### Search result display
+
+treatmentTitle
+
 
 ### Treatment page display
