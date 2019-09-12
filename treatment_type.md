@@ -37,6 +37,7 @@
 | --- | --- | --- | --- | --- |
 | treatmentId | no | no | no | |
 | treatmentTitle | no | no | yes | | 
+| treatmentAuthors | no | yes | yes | |
 | pages |  no | no | yes | |
 | doi |  no | no | yes | |
 | zenodoDep | no | no | no | |
@@ -509,6 +510,7 @@
 ### Search result display
 
 * treatmentTitle
+* treatmentAuthors
 * publication info = *articleTitle* + journalTitle + journalVolume + journalIssue + journalYear + *articleDoi* + *articlePages* + pages
 * status
 * link to zenodo record = doi
