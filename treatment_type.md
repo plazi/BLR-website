@@ -40,10 +40,10 @@
 | pages |  no | no | yes | |
 | doi |  no | no | yes | |
 | zenodoDep | no | no | no | |
-| publicationDate  no | no | no | |
-| *articleTitle*  no |  no | yes | needed |
+| publicationDate |  no | no | no | |
+| *articleTitle* |  no |  no | yes | needed |
 | *articleDoi* | no | no | yes | needed |
-| journalTitle |  yes | no  yes | | 
+| journalTitle | yes | no  yes | | 
 | journalYear |  yes | yes | yes | | 
 | journalVolume |  yes | no | yes | | 
 | journalIssue | no | no | yes | |  
@@ -52,8 +52,8 @@
 | kingdom |  yes | no | no? | | 
 | phylum | yes | no | no? | |  
 | order | yes | no | no? | | 
-| family yes | no | no? | | 
-| genus yes | no | no? | |  
+| family | yes | no | no? | | 
+| genus | yes | no | no? | |  
 | species | yes | no? | no? | |  
 | status | yes | no | yes | |  
 | rank | yes | no | no | |
