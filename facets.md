@@ -1,4 +1,4 @@
-## BASIC FACETS
+### BASIC FACETS
 
 * taxonomic ranks
 * journal title
