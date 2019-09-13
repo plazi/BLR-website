@@ -16,7 +16,7 @@
 | --- | --- | --- | --- |
 | *doi* | |  |  |
 | *citedByTreatment* | | | |
-| *publicaionTitle* | | | needs to be added to zenodo metadata |
+| *publicationTitle* | | | needs to be added to zenodo metadata |
 | *kingdom* | | | needs to be added as custom metadata |
 | *phylum* | | |  needs to be added as custom metadata |
 | *order* | | |  needs to be added as custom metadata |
