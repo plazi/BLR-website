@@ -14,7 +14,15 @@
 
 | field name | type | facet | Description |
 | --- | --- | --- | --- |
-| |
+| *doi* | |  |  |
+| *citedByTreatment* | | | |
+| *publicaionTitle* | | | needs to be added to zenodo metadata |
+| *kingdom* | | | needs to be added as custom metadata |
+| *phylum* | | |  needs to be added as custom metadata |
+| *order* | | |  needs to be added as custom metadata |
+| *family* | | |  needs to be added as custom metadata |
+| *genus* | | |  needs to be added as custom metadata |
+| *species* | | |  needs to be added as custom metadata |
 
 According to https://zenodeo.punkish.org/docs#/v2/getV2Images (2019-09-12, 17:33), there are  o parameters for images.
 
