@@ -4,7 +4,7 @@
 * journal title
 * article author
 * publication year
-* publication volume *
+* publication volume
 
 
 ### treatments
