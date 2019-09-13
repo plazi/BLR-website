@@ -31,7 +31,7 @@ According to https://zenodeo.punkish.org/docs#/v2/getV2Images (2019-09-12, 17:33
 | --- | --- | --- | --- | --- |
 | title | no | no | yes | |
 | creators | yes | no | yes | | 
-| images | no | yes | yes | |
+| images | no | no | yes | |
 | thumb250 |  no | no | yes | |
 
 ## Displays
