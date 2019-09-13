@@ -14,6 +14,7 @@
 
 | field name | type | facet | Description |
 | --- | --- | --- | --- |
+| |
 
 According to https://zenodeo.punkish.org/docs#/v2/getV2Images (2019-09-12, 17:33), there are  o parameters for images.
 
