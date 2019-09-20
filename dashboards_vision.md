@@ -1,6 +1,6 @@
 ### treatments
 
-**How to Read This File**
+**How to Read This File:**
 After every dashboard, I added search type labels to indicate which of those would have that given dashboard displayed. Thus, if one search type is missing, the dashboard shouldn't be included.
 
 **Dashboards/Charts**
