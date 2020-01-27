@@ -24,7 +24,7 @@
 | *genus* | | |  needs to be added as custom metadata |
 | *species* | | |  needs to be added as custom metadata |
 
-According to https://zenodeo.punkish.org/docs#/v2/getV2Images (2019-09-12, 17:33), there are  o parameters for images.
+According to https://zenodeo.punkish.org/docs#/v2/getV2Images ~~(2019-09-12, 17:33), there are  o parameters for images.~~ images can be queried by `q` (full text search), `doi`, `author`, `title` and `keyword` (experimental, for now). The response is almost the same as that returned directly from Zenodo (see example below for sample response from zenodeo and Zenodo for record **3406430**. The difference is that zenodeo searches *only* for images and automatically excludes non-open-access articles.
 
 ### Zenodeo response fields
 | field | facet | sort |result display | notes |
