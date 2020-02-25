@@ -25,6 +25,6 @@
 
 ## Common Facets
 
-* publication title
+* journal title
 * publication year
 
