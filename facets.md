@@ -3,7 +3,7 @@
 
 ## treatments
 
-*taxonomic ranks
+* taxonomic ranks
 * related material citations
 * related treatment citations
 * has figures
