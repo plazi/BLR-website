@@ -28,8 +28,8 @@ Currently, Zenodeo doesn't support publications.
 * publication title
 * publication authors
 * publication info = volume, issue, pages
-* treatment flag, if it has treatments
-* images flag, if it has images
+* if it has treatments (numbers)
+* if it has images (numbers)
 * DOI
 * zenodo dep_id (only if the DOI is not from zenodo?)
 
