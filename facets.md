@@ -10,9 +10,9 @@
 * status
 * rank
 * collection code
-* related material citations
-* related treatment citations
-* has figures
+* related material citations \[pending\]
+* related treatment citations \[pending\]
+* has figures \[pending\]
 
 
 ## images
