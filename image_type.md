@@ -40,7 +40,7 @@ According to https://zenodeo.punkish.org/docs#/v2/getV2Images ~~(2019-09-12, 17:
 
 * image thumbnail
 * image caption = title
-* publication info = articleTitle + journalTitle + journalVolume + journalIssue + journalYear + articleDoi + articlePages + pages
+* publication info = articleTitle + journalTitle + journalVolume + journalIssue + journalYear + articleDoi + articlePages + pages (missing in the API responce)
 * link to zenodo record = doi
 * treatment flag, if belongs to a treatment
 
