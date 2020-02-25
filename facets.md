@@ -3,12 +3,16 @@
 
 ## treatments
 
-* taxonomic ranks
-* related material citations
-* related treatment citations
-* has figures
+* ~journal volume~
+* *journal title*
+* *publication year*
+* ~taxonomic ranks~ 
 * status
+* rank
 * collection code
+* related material citations \[pending\]
+* related treatment citations \[pending\]
+* has figures \[pending\]
 
 
 ## images
