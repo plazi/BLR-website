@@ -146,6 +146,7 @@ Advanced search functionality would be available through filters.
 
 1. Zenodeo - OpenBioDiv, so we can have a list of treatment IDs to be queried based on current, most acceptable hypotheses of taxonomic classification. 
 2. Zenodeo - GBIF, so we can translate institutuons' full names into collection codes, and then, query Zenodeo.
+3. Integrate Synospecies to allow complementing taxonomic names with all their variants (synonomys, current name, etc.)
 
 ### Related projects:
 
