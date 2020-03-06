@@ -1,7 +1,25 @@
 # Biodiversity Literature Repository Website
 
-## Vision
+## Updates
+### 14-18 Feb: Arcadia Sprint Meeting
+* Reviewed [facets list](https://github.com/plazi/BLR-website/blob/master/facets.md);
+* Decided to switch to Zenodo to query Publications and Images directly;
+* Decided to use TB to get data for the dashboards;
+* Decided to have a [front-end integration](https://github.com/plazi/BLR-website/blob/master/synospecies_integration.md) with Synospecies;
+* Marcus will provide Alex a use case for community-specific facets based on custom metadata fields, which will eventually allow for the use of Zenodo for the treatments data type as well;
+* Marcus will review the treatment facets according to current Zenodo API specifications to provide a plan B for the first release of the BLR website.
 
+## Backend/Data Origin
+
+* **Treatments**: Zenodeo
+* **Images**: Zenodo
+* **Publications**: Zenodo
+
+### Dashboards
+* **Dashboards**: TB
+
+### Synospecies Integration
+* [Front-end integration](https://github.com/plazi/BLR-website/blob/master/synospecies_integration.md), synonomies will become links redirecting to a query on the back-end service (Zenodeo for treatments; Zenodo for publications and images) using that specific taxon name as query.
 
 ## Static links
 1. About - about BLR
@@ -13,12 +31,12 @@
 ## Search System
 The user will choose between the different data available for search, and then, choose which information should be queried. 
 
-Advanced search functionality would be available through filters.
+Advanced search functionality would be available through facets.
 
 ### Query types
 1. Taxon (_search by taxonomic rank'?', which will return all-inclusive results in both Zenodeo and Zenodo_)\
     Return distinct of all treatments which has the search term in either:\
-          treatmentTitle, kingdom, phylum, order, family, genus, species
+          `treatmentTitle, kingdom, phylum, order, family, genus, species`
 2. Journal\
     Return distinct of all treatments which has the search term in:\
          journalTitle
@@ -26,15 +44,18 @@ Advanced search functionality would be available through filters.
     Return distinct of all treatments which has the search term in:\
          authorityName
 4. Institution/Collection**\ 
-    (search grbio for institution -> get the code and seach q matchword)
-5. Community (to do)
+    (search grbio for institution -> get the code and search a matchword)
+5. Community (to do)\
+    E.g.: Scielo?
 
-### Filter options
+### Faced options
+
+Updated list (Arcadia Sprint Meeting, 24-28 Feb) of desired facets is available [here](https://github.com/plazi/BLR-website/blob/master/facets.md).
 
 ### Data types
 1. Taxonomic treatments (searched on Zenodeo)
-2. Images (searched on Zenodo)
-3. Publications (searched on ?)
+2. Images (searched on **Zenodo**)
+3. Publications (searched on **Zenodo**)
 
 #### Taxonomic Treatments
 1. Taxon Rank
@@ -47,9 +68,9 @@ Advanced search functionality would be available through filters.
 
 '* If the query type is author or journal, this filter option wouldn't be available. 
 
-#### Images (see Current Limitation #3)
+#### Images (~see Current Limitation #3~)
 
-#### Publication (see To be decided #1)
+#### Publication (~see To be decided #1~)
 
 ## Index Page
 * Header(BLR logo, links)
@@ -62,7 +83,8 @@ Advanced search functionality would be available through filters.
 1. Header (BLR logo, links)
 2. Filter
 2.1 Dashboards
-2.2 Results*
+2.2 Synospecies integration
+2.3 Results*
 5. Footer ('Powered by', social media links)
 
 '* Each **data type** would be presented in the result list with:
@@ -87,6 +109,8 @@ Advanced search functionality would be available through filters.
 2. Reference
 3. Links to GBIF/Zenodo/TB
 
+>**Deprecated:** (We decided to not go with unit pages)
+```
 ## Unit Pages
 
 ### Taxonomic Treatments
@@ -126,7 +150,7 @@ Advanced search functionality would be available through filters.
 5. Footer ('Powered by', social media links)
 
 '* A new query would have to be made based on an specific, pre-defined information of the clicked image, to retrieve and show some related items in all three 'unit searches'.
-
+```
 
 ## Current limitations
 
@@ -134,11 +158,17 @@ Advanced search functionality would be available through filters.
 
 2. More than one collection can belong to the same institution. Thus, it would be nice to be able to query the institution's full name to access all treatments, or images or publications, associated with that. The problem here is the correspondance in between collection codes and institutions full names, which is available on GBIF but not integrated in Zenodeo/Zenodo.
 
+>**Deprecated:** This was solved in the Arcadia Sprint Meeting (24-28 Feb).
+```
 3. Images are queried in Zenodo, which doesn't returns enough metadata to have all desired filters applied (for instance, there is no information about taxonomic ranks in the image metadata, for many reasons).
+```
 
 ## To be Decided
 
+>**Solved:** We decided to go with Zenodo for publications.
+```
 1. When working with publications, should we query Zenodeo or Zenodo? Publication metadata also will have taxononomic ranking missing, if I'm remember this correctly.
+```
 
 2. Geographical queries.
 
@@ -146,7 +176,7 @@ Advanced search functionality would be available through filters.
 
 1. Zenodeo - OpenBioDiv, so we can have a list of treatment IDs to be queried based on current, most acceptable hypotheses of taxonomic classification. 
 2. Zenodeo - GBIF, so we can translate institutuons' full names into collection codes, and then, query Zenodeo.
-3. Integrate Synospecies to allow complementing taxonomic names with all their variants (synonomys, current name, etc.)
+3. Integrate Synospecies to allow complementing taxonomic names with all their variants (synonomys, current name, etc.). See solution [here](https://github.com/plazi/BLR-website/blob/master/synospecies_integration.md).
 
 ### Related projects:
 
